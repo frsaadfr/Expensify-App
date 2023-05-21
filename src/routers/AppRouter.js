@@ -9,12 +9,6 @@ import HelpPage from './../components/HelpPage'
 import NotFoundPage from './../components/NotFoundPage'
 
 
-
-
-
-
-
-
 const AppRouter = () => (<BrowserRouter>
     <div>
         <Header />
@@ -22,7 +16,7 @@ const AppRouter = () => (<BrowserRouter>
     
                 <Route path="/" component={ExpenseDashBoardPage} exact={true}/>
                 <Route path="/create" component={AddExpensePage}/>
-                <Route path="/edit" component={EditExpensePage} />
+                <Route path="/edit/:id" component={EditExpensePage} />
                 <Route path="/Help" component={HelpPage} />
                 <Route component={NotFoundPage} />
 
