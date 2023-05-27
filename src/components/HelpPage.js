@@ -1,7 +1,7 @@
 import React from 'react';
 const HelpPage = () => (
     <div>
-    this from my HelpPage component
+    <p>sdheufhseiw</p>
     </div>
 )
 export default HelpPage;
